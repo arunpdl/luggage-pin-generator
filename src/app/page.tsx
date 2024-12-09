@@ -184,6 +184,16 @@ export default function LuggagePinGenerator() {
           </CardContent>
         </Card>
       </div>
+      <footer className="text-sm text-right">
+        Made with ❤️ by{" "}
+        <a
+          href="https://arunpdl.com.np"
+          target="_blank"
+          className="text-sky-600"
+        >
+          Arun Poudel
+        </a>
+      </footer>
     </div>
   );
 }
