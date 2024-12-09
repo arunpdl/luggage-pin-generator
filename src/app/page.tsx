@@ -102,7 +102,7 @@ export default function LuggagePinGenerator() {
                   Possible Combinations:
                 </h3>
                 <div className="mt-2 grid grid-cols-5 gap-2">
-                  {combinations.map((combo, index) => (
+                  {combinations.map((combo) => (
                     <div
                       key={combo}
                       className={`p-2 text-center rounded transition-colors duration-300 ${
